@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "from the laptop git"
+ls -al
