@@ -1,0 +1,8 @@
+---
+  - name: play1 
+    gather_facts: yes
+    hosts : all
+    tasks:
+        - name: run apt update
+          apt: apt  update 
+            
