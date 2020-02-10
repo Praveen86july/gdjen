@@ -4,5 +4,6 @@ docker images
 echo "========================"
 apt update -y
 apt install nginx -y
-service nginx start
+service nginx start 
+eccho "==========================="
 service nginx status
