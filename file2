@@ -10,3 +10,10 @@ git-github-docker-jenkins
 
 ssh permissions in jenkins/gitserver
 webhooks in github/jenkins
+
+installation of docker in jenkins server isn't giving permissions
+have to do a litlle R&D on it to know what it is exactly
+
+
+mean while have to learn terraform
+
