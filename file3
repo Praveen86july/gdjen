@@ -1,5 +1,0 @@
-#!/bin/bash
-echo "======================="
-pwd
-echo "from the laptop git"
-ls -al
