@@ -1,0 +1,7 @@
+FROM nginx
+LABEL maintainer=praveen86july@gmail.com
+RUN apt update -y \
+ && apt install nginx -y \
+ && service nginx start -y
+COPY /root/gdjen/file1 /root/file1
+ENTRYPOINT www.google.com
