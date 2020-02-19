@@ -1,0 +1,15 @@
+#Terraform Commands:
+echo "All the terraform commands listed"
+
+echo "basic commands"
+terraform version
+terraform init
+terraform validate
+terraform plan
+terraform apply -auto-approve
+
+echo "For both Windows and Linux"
+terraform init
+terraform validate
+terraform plan --var-file test.tf
+terraform apply --var-file test.tf 
