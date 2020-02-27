@@ -11,5 +11,5 @@ terraform apply -auto-approve
 echo "For both Windows and Linux"
 terraform init
 terraform validate
-terraform plan --var-file test.tf
-terraform apply --var-file test.tf 
+terraform plan --var-file test.vartf
+terraform apply --var-file test.vartf 
