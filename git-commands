@@ -1,0 +1,8 @@
+git clone -----
+git status
+git log
+git add .
+git commit -m "-----"
+git remote -v
+git push -u orgin <master/branch"
+
