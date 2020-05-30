@@ -1,8 +1,9 @@
-git clone -----
+git --version
+git clone <ssh/http>
 git status
 git log
 git add .
-git commit -m "-----"
+git commit -m "<message>"
 git remote -v
 git push -u orgin <master/branch"
 
